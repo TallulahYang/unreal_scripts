@@ -1,0 +1,27 @@
+<DatasmithUnrealScene>
+	<Version>0.20</Version>
+	<Host>Autodesk 3dsmax 20.0.966Scanline Renderer</Host>
+	<Application Vendor="Autodesk" ProductName="3dsmax" ProductVersion="20.0.966"/>
+	<User ID="e7b8dd8b44290f1cc89e2293f1ccd907" OS="Windows 8"/>
+	<StaticMesh name="2" label="Teapot001">
+		<file path="PythonExample_Assets/2.udsmesh"/>
+		<Size a="125342.132813" x="325.177399" y="202.346634" z="159.347992"/>
+		<LightmapUV value="-1"/>
+		<Hash value="2ca582d02aceec69bdfff1d520119610"/>
+		<Material id="0" name="01_-_Default"/>
+	</StaticMesh>
+	<ActorMesh name="2" label="Teapot001" layer="0">
+		<mesh name="2"/>
+		<material id="-1" name="01_-_Default"/>
+		<Transform tx="-3.429008" ty="1.142994" tz="0.0" sx="1.0" sy="1.0" sz="1.0" qx="0.0" qy="0.0" qz="0.0" qw="1.0" qhex="0000008000000000000000800000803F"/>
+	</ActorMesh>
+	<Material name="01_-_Default">
+		<Shader name="01_-_Default">
+			<IORRefraction value="1.5"/>
+			<Bumpval value="1.0"/>
+			<Diffusecolor R="0.027451" G="0.341176" B="0.913726"/>
+			<Roughnessval value="0.9" desc="Roughness"/>
+		</Shader>
+	</Material>
+	<Export Duration="0"/>
+</DatasmithUnrealScene>
